@@ -201,6 +201,7 @@ def raw_data(df):
     """Displays 5 rows of data from the file for city of choice"""
     
     while True:
+        #Input either 'yes or 'no' for the code to run
         valid_entry = ['yes','no']
         response = input("Would you like to view the individual trip data for the first 5 entries ? Enter 'yes' or 'no'\n").lower()
         if response in valid_entry:
@@ -211,9 +212,11 @@ def raw_data(df):
                 print(trip_data)
             break     
         else:
+            #Display message if anything outside 'yes' or 'no' is inputted
             print("Please enter a valid entry")
     if  response == 'yes':       
             while True:
+                #Display message opting to show user 5 additional individual trip data
                 next_response = input("Would you like to view trip data for the next 5 entries? Enter 'yes' or 'no'\n").lower()
                 if next_response in valid_entry:
                     if next_response == 'yes':
