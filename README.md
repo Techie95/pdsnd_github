@@ -33,3 +33,7 @@ https://github.com/udacity/pdsnd_github.git
 
 Nigeria
 
+### Program Details
+
+Access Bank/Udacity Nanodegree Program: Programming for Data Science with Python
+
